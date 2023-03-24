@@ -194,16 +194,15 @@ h2:hover{
 }
 /* BOX CANVAS */
 .canvas { 
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 696px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 699px;
     height: 150px;
 }
 .canvas img{
     width: 100%;
     height: 100%;
 }
-
 .table{
     width: 347px;
     display: inline-block;
@@ -235,8 +234,17 @@ h2:hover{
 .content span{
     font-size: 10px;
 }
+.pdleft5px{
+    margin-top: 2px;
+    padding-left: 5px;
+}
 .div_color{
+    /* padding-left: 5px; */
     background-color:#eaf8d2;   
+}
+.div_color2{
+    padding-left: 5px;
+    background-color: #d5ecab
 }
 /* BOX AQUARE */
 .dudoan{
@@ -246,9 +254,6 @@ h2:hover{
 .grn_amthucc a{
     font-weight: 600;
 }
-/* .point {
-    list-style: ;
-} */
 
 .table li{
     font-size: 12px;
@@ -258,6 +263,7 @@ h2:hover{
 }
 /* BOX CAMERA */
 .cmra{
+    /* padding-right: 5px; */
     background: url(//cdn.24h.com.vn/images/sprites092018.png) 
     no-repeat -50px -359px;
 }
@@ -278,8 +284,11 @@ h2:hover{
 .table li:hover{
     color: #78b43d;
 }
-.b{
+.b{   
     background-color: #d5ecab !important;
+}
+.color_dudoan{
+    background-color: #d5ecab;
 }
 /* table right */
 .sum_right{
@@ -325,7 +334,7 @@ h2:hover{
     display: flex;
     width: 699px;
     height: 65px;
-    margin-top: 13px;
+    margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;
     font-size: 11px;
@@ -421,6 +430,7 @@ h2:hover{
 }
 /* BOX SELECTED VIDEO */
 .boxvideoselected{
+    margin-top: 10px;
     width: 699px;
     height: 382px;
 }
@@ -489,9 +499,19 @@ h2:hover{
 }
 .divvd2{
     display: block;
-    width: 265px;
-    height: 366px;
-  
+    width: 285px;
+    height: 336px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* background-color: #ededed; */
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #e9e9e9;
+}
+::-webkit-scrollbar-thumb{
+   background-color: #ddd; 
+   border-radius: 5px;
 }
 
 .divvd2 article{
@@ -513,6 +533,9 @@ h2:hover{
     color: #90c95a;
 }
 /* BOX AM THUC */
+.BOXAMTHUC{
+    margin-top: 10px;
+}
 .boxamthuc{
     width: 699px;
     height: 204px;
@@ -594,7 +617,7 @@ h2:hover{
     width: 300px;
     height: 134px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .boxck a{
@@ -682,7 +705,7 @@ h2:hover{
    flex-direction: column; 
    border: 1px solid #ebebeb; 
    border-radius: 8px 8px 5px 5px; 
-   margin-bottom: 30px;
+   margin-bottom: 10px;
 
 }
 .right_between_nav a{
@@ -935,7 +958,7 @@ h2:hover{
 }
 .sub_ttdn{
     display: flex;
-    width: 240px;
+    width: 220px;
     height: 100px;
     flex-direction: column;
     justify-content: space-around;
@@ -944,7 +967,7 @@ h2:hover{
     /* padding-left: 10px; */
 }
 .ttdn_a{
-    width: 240px;
+    width: 220px;
     height: 100px;
     text-decoration: none;
     color: #000;
@@ -956,10 +979,14 @@ h2:hover{
     height: 83px;
 }
 .ttdn_span{
-    width: 215px;
+    width: 100%;
     height: 64px;
     font-size: 13px;
-    /* padding: 0 0 0 1px; */
+    padding: 0 0 0 1px;
+}
+.sub-ttdn{
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 /* BOX SHARE_LIKE */
@@ -969,40 +996,26 @@ h2:hover{
     margin: 0 auto;
     margin-top: 10px;
 }
-.sub_sharelike{
+.btn-share-24h{
     display: flex;
     float: right;
-    line-height: 50px;
-    padding-top: 5px;
-    
 }
 
-.share{
-    width: 98px;
-    font-size: 14px;
+
+.cv19{ 
     height: 40px;
-    background-color: #78b43d;
     color: white;
-    border-radius: 999px;    
+    font-weight: 600;
+    padding:  0 7px 0 ;
+    font-size: 14px;
+    border-radius: 999px;
+    background: #78B43D;
 }
-.sub_share{
-    width: 97px;
-    height: 40px;
-}
-
-.sub_share img{
-    width: 20px;
-    height: 20px;
-}
-.sub_share b{
-    line-height: 40px;
-    margin-top: -3px 0 5px;
-}
-.img_share{
-    margin:  8px 1px 0 5px;
+.tittle_img::after{
+    content: "CHIA SẺ";
 }
 .home{
-    margin-left: 3px;
+    margin-left: 5px;
 }
 .sub_home{
     width: 40px;
@@ -1018,7 +1031,7 @@ h2:hover{
     width: 40px;
     height: 40px;
     display: inline-block;
-}
+} 
 
 
 
